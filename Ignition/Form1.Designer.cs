@@ -76,7 +76,7 @@
             this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
             this.label1.Location = new System.Drawing.Point(505, 190);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(156, 31);
+            this.label1.Size = new System.Drawing.Size(186, 37);
             this.label1.TabIndex = 2;
             this.label1.Text = "Welcome to";
             // 
@@ -90,7 +90,7 @@
             this.label2.Location = new System.Drawing.Point(675, 190);
             this.label2.Margin = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 31);
+            this.label2.Size = new System.Drawing.Size(120, 37);
             this.label2.TabIndex = 3;
             this.label2.Text = "Ignition";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -104,7 +104,7 @@
             this.label3.Image = ((System.Drawing.Image)(resources.GetObject("label3.Image")));
             this.label3.Location = new System.Drawing.Point(501, 233);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(171, 54);
+            this.label3.Size = new System.Drawing.Size(205, 64);
             this.label3.TabIndex = 4;
             this.label3.Text = "Sign in";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -118,7 +118,7 @@
             this.label4.Image = ((System.Drawing.Image)(resources.GetObject("label4.Image")));
             this.label4.Location = new System.Drawing.Point(511, 316);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(175, 20);
+            this.label4.Size = new System.Drawing.Size(204, 25);
             this.label4.TabIndex = 5;
             this.label4.Text = "Enter Your Username ";
             // 
@@ -131,7 +131,7 @@
             this.label5.Image = ((System.Drawing.Image)(resources.GetObject("label5.Image")));
             this.label5.Location = new System.Drawing.Point(511, 414);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(167, 20);
+            this.label5.Size = new System.Drawing.Size(195, 25);
             this.label5.TabIndex = 7;
             this.label5.Text = "Enter Your Password";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -143,9 +143,9 @@
             this.lbl_incorrect.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_incorrect.ForeColor = System.Drawing.Color.Red;
             this.lbl_incorrect.Image = ((System.Drawing.Image)(resources.GetObject("lbl_incorrect.Image")));
-            this.lbl_incorrect.Location = new System.Drawing.Point(571, 501);
+            this.lbl_incorrect.Location = new System.Drawing.Point(523, 502);
             this.lbl_incorrect.Name = "lbl_incorrect";
-            this.lbl_incorrect.Size = new System.Drawing.Size(260, 20);
+            this.lbl_incorrect.Size = new System.Drawing.Size(300, 25);
             this.lbl_incorrect.TabIndex = 9;
             this.lbl_incorrect.Text = "Incorrect Username Or Password";
             this.lbl_incorrect.Visible = false;
@@ -215,7 +215,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
