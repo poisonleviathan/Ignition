@@ -64,5 +64,10 @@ namespace Ignition
             }
 
         }
+
+        private void Uname_txtbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

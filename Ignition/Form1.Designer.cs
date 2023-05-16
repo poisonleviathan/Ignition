@@ -188,6 +188,7 @@
             this.Uname_txtbox.SelectedText = "";
             this.Uname_txtbox.Size = new System.Drawing.Size(308, 36);
             this.Uname_txtbox.TabIndex = 11;
+            this.Uname_txtbox.TextChanged += new System.EventHandler(this.Uname_txtbox_TextChanged);
             // 
             // UPass_txtbox
             // 
@@ -230,6 +231,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.Transparent;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
