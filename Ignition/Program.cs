@@ -8,6 +8,7 @@ namespace Ignition
 {
     internal static class Program
     {
+        ///Dinil was here
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,7 +17,7 @@ namespace Ignition
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new New_Member());
+            Application.Run(new Form1());
         }
     }
 }
