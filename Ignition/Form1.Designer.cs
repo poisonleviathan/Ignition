@@ -71,12 +71,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Poppins", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
             this.label1.Location = new System.Drawing.Point(505, 190);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(143, 37);
+            this.label1.Size = new System.Drawing.Size(156, 31);
             this.label1.TabIndex = 2;
             this.label1.Text = "Welcome to";
             // 
@@ -84,13 +84,13 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Poppins", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.LimeGreen;
             this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
-            this.label2.Location = new System.Drawing.Point(642, 190);
+            this.label2.Location = new System.Drawing.Point(675, 190);
             this.label2.Margin = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 37);
+            this.label2.Size = new System.Drawing.Size(102, 31);
             this.label2.TabIndex = 3;
             this.label2.Text = "Ignition";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -99,12 +99,12 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Poppins SemiBold", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Image = ((System.Drawing.Image)(resources.GetObject("label3.Image")));
             this.label3.Location = new System.Drawing.Point(501, 233);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(153, 65);
+            this.label3.Size = new System.Drawing.Size(171, 54);
             this.label3.TabIndex = 4;
             this.label3.Text = "Sign in";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -113,12 +113,12 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Image = ((System.Drawing.Image)(resources.GetObject("label4.Image")));
             this.label4.Location = new System.Drawing.Point(511, 316);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(148, 23);
+            this.label4.Size = new System.Drawing.Size(175, 20);
             this.label4.TabIndex = 5;
             this.label4.Text = "Enter Your Username ";
             // 
@@ -126,12 +126,12 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Image = ((System.Drawing.Image)(resources.GetObject("label5.Image")));
             this.label5.Location = new System.Drawing.Point(511, 414);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(142, 23);
+            this.label5.Size = new System.Drawing.Size(167, 20);
             this.label5.TabIndex = 7;
             this.label5.Text = "Enter Your Password";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -140,12 +140,12 @@
             // 
             this.lbl_incorrect.AutoSize = true;
             this.lbl_incorrect.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_incorrect.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_incorrect.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_incorrect.ForeColor = System.Drawing.Color.Red;
             this.lbl_incorrect.Image = ((System.Drawing.Image)(resources.GetObject("lbl_incorrect.Image")));
             this.lbl_incorrect.Location = new System.Drawing.Point(571, 501);
             this.lbl_incorrect.Name = "lbl_incorrect";
-            this.lbl_incorrect.Size = new System.Drawing.Size(223, 23);
+            this.lbl_incorrect.Size = new System.Drawing.Size(260, 20);
             this.lbl_incorrect.TabIndex = 9;
             this.lbl_incorrect.Text = "Incorrect Username Or Password";
             this.lbl_incorrect.Visible = false;
@@ -158,7 +158,7 @@
             this.Usignin_btn.BorderRadius = 10;
             this.Usignin_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Usignin_btn.FillColor = System.Drawing.Color.LimeGreen;
-            this.Usignin_btn.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Usignin_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Usignin_btn.ForeColor = System.Drawing.Color.White;
             this.Usignin_btn.Location = new System.Drawing.Point(592, 550);
             this.Usignin_btn.Name = "Usignin_btn";
@@ -177,10 +177,11 @@
             this.Uname_txtbox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.Uname_txtbox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.Uname_txtbox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Uname_txtbox.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Uname_txtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Uname_txtbox.ForeColor = System.Drawing.Color.Green;
             this.Uname_txtbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Uname_txtbox.Location = new System.Drawing.Point(515, 342);
+            this.Uname_txtbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Uname_txtbox.Name = "Uname_txtbox";
             this.Uname_txtbox.PasswordChar = '\0';
             this.Uname_txtbox.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -199,10 +200,11 @@
             this.UPass_txtbox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.UPass_txtbox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.UPass_txtbox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.UPass_txtbox.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UPass_txtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UPass_txtbox.ForeColor = System.Drawing.Color.Green;
             this.UPass_txtbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.UPass_txtbox.Location = new System.Drawing.Point(515, 440);
+            this.UPass_txtbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.UPass_txtbox.Name = "UPass_txtbox";
             this.UPass_txtbox.PasswordChar = '*';
             this.UPass_txtbox.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -213,7 +215,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
@@ -229,7 +231,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Font = new System.Drawing.Font("Poppins", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.Transparent;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
