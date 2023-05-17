@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace Ignition
 {
-    public partial class Admin_Dashboard : Form
+    public partial class add_staff : Form
     {
-        public Admin_Dashboard()
+        public add_staff()
         {
             InitializeComponent();
         }
 
-        private void Admin_Dashboard_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }
