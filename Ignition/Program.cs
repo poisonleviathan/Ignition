@@ -8,6 +8,7 @@ namespace Ignition
 {
     internal static class Program
     {
+        ///Dinil was here
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
