@@ -48,10 +48,17 @@
             this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // button5
@@ -325,7 +332,7 @@
             this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(1179, 259);
+            this.guna2TextBox2.Location = new System.Drawing.Point(1179, 256);
             this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
@@ -350,7 +357,7 @@
             this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Location = new System.Drawing.Point(643, 260);
+            this.guna2TextBox3.Location = new System.Drawing.Point(643, 256);
             this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox3.Name = "guna2TextBox3";
             this.guna2TextBox3.PasswordChar = '\0';
@@ -390,17 +397,111 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(733, 160);
+            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label4.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(245)))), ((int)(((byte)(118)))));
+            this.label4.Location = new System.Drawing.Point(715, 154);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 16);
+            this.label4.Size = new System.Drawing.Size(75, 36);
             this.label4.TabIndex = 9;
             this.label4.Text = "Name";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label8.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(245)))), ((int)(((byte)(118)))));
+            this.label8.Location = new System.Drawing.Point(1236, 154);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(110, 36);
+            this.label8.TabIndex = 13;
+            this.label8.Text = "Password";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label5.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(245)))), ((int)(((byte)(118)))));
+            this.label5.Location = new System.Drawing.Point(721, 267);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(69, 36);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "Email";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label6.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(245)))), ((int)(((byte)(118)))));
+            this.label6.Location = new System.Drawing.Point(1246, 265);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(94, 36);
+            this.label6.TabIndex = 15;
+            this.label6.Text = "Address";
+            // 
+            // guna2TextBox5
+            // 
+            this.guna2TextBox5.BorderRadius = 12;
+            this.guna2TextBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox5.DefaultText = "";
+            this.guna2TextBox5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(245)))), ((int)(((byte)(118)))));
+            this.guna2TextBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox5.Location = new System.Drawing.Point(934, 338);
+            this.guna2TextBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2TextBox5.Name = "guna2TextBox5";
+            this.guna2TextBox5.PasswordChar = '\0';
+            this.guna2TextBox5.PlaceholderForeColor = System.Drawing.Color.Lime;
+            this.guna2TextBox5.PlaceholderText = "";
+            this.guna2TextBox5.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.guna2TextBox5.SelectedText = "";
+            this.guna2TextBox5.ShadowDecoration.BorderRadius = 12;
+            this.guna2TextBox5.Size = new System.Drawing.Size(180, 48);
+            this.guna2TextBox5.TabIndex = 16;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(245)))), ((int)(((byte)(118)))));
+            this.label7.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(991, 344);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(67, 36);
+            this.label7.TabIndex = 17;
+            this.label7.Text = "Done";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(245)))), ((int)(((byte)(118)))));
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(397, 430);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(1275, 416);
+            this.dataGridView1.TabIndex = 18;
             // 
             // add_staff
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1800, 897);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.guna2TextBox5);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.guna2TextBox4);
             this.Controls.Add(this.guna2TextBox3);
@@ -410,12 +511,14 @@
             this.Controls.Add(this.panel1);
             this.Name = "add_staff";
             this.Text = "add_staff";
+            this.Load += new System.EventHandler(this.add_staff_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -442,5 +545,11 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox5;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

@@ -19,6 +19,11 @@ namespace Ignition
 
         private void label3_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void add_staff_Load(object sender, EventArgs e)
+        {
 
         }
     }
