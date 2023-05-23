@@ -41,6 +41,9 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
+            this.guna2Shapes1 = new Guna.UI2.WinForms.Guna2Shapes();
+            this.guna2Shapes2 = new Guna.UI2.WinForms.Guna2Shapes();
+            this.guna2Shapes3 = new Guna.UI2.WinForms.Guna2Shapes();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -247,11 +250,53 @@
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // guna2Shapes1
+            // 
+            this.guna2Shapes1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2Shapes1.BackgroundImage")));
+            this.guna2Shapes1.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Shapes1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Shapes1.Location = new System.Drawing.Point(559, 126);
+            this.guna2Shapes1.Name = "guna2Shapes1";
+            this.guna2Shapes1.PolygonSkip = 1;
+            this.guna2Shapes1.Rotate = 0F;
+            this.guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rectangle;
+            this.guna2Shapes1.Size = new System.Drawing.Size(440, 212);
+            this.guna2Shapes1.TabIndex = 2;
+            this.guna2Shapes1.Text = "guna2Shapes1";
+            this.guna2Shapes1.Zoom = 80;
+            // 
+            // guna2Shapes2
+            // 
+            this.guna2Shapes2.Location = new System.Drawing.Point(907, 409);
+            this.guna2Shapes2.Name = "guna2Shapes2";
+            this.guna2Shapes2.PolygonSkip = 1;
+            this.guna2Shapes2.Rotate = 0F;
+            this.guna2Shapes2.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rectangle;
+            this.guna2Shapes2.Size = new System.Drawing.Size(342, 200);
+            this.guna2Shapes2.TabIndex = 3;
+            this.guna2Shapes2.Text = "guna2Shapes2";
+            this.guna2Shapes2.Zoom = 80;
+            // 
+            // guna2Shapes3
+            // 
+            this.guna2Shapes3.Location = new System.Drawing.Point(1109, 126);
+            this.guna2Shapes3.Name = "guna2Shapes3";
+            this.guna2Shapes3.PolygonSkip = 1;
+            this.guna2Shapes3.Rotate = 0F;
+            this.guna2Shapes3.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rectangle;
+            this.guna2Shapes3.Size = new System.Drawing.Size(342, 200);
+            this.guna2Shapes3.TabIndex = 4;
+            this.guna2Shapes3.Text = "guna2Shapes3";
+            this.guna2Shapes3.Zoom = 80;
+            // 
             // Admin_Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1800, 897);
+            this.Controls.Add(this.guna2Shapes3);
+            this.Controls.Add(this.guna2Shapes2);
+            this.Controls.Add(this.guna2Shapes1);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -280,5 +325,8 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button5;
+        private Guna.UI2.WinForms.Guna2Shapes guna2Shapes1;
+        private Guna.UI2.WinForms.Guna2Shapes guna2Shapes2;
+        private Guna.UI2.WinForms.Guna2Shapes guna2Shapes3;
     }
 }
