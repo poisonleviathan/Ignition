@@ -279,12 +279,15 @@
             // 
             // guna2Shapes3
             // 
+            this.guna2Shapes3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2Shapes3.BackgroundImage")));
+            this.guna2Shapes3.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Shapes3.FillColor = System.Drawing.Color.Transparent;
             this.guna2Shapes3.Location = new System.Drawing.Point(1109, 126);
             this.guna2Shapes3.Name = "guna2Shapes3";
             this.guna2Shapes3.PolygonSkip = 1;
             this.guna2Shapes3.Rotate = 0F;
             this.guna2Shapes3.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rectangle;
-            this.guna2Shapes3.Size = new System.Drawing.Size(342, 200);
+            this.guna2Shapes3.Size = new System.Drawing.Size(440, 200);
             this.guna2Shapes3.TabIndex = 4;
             this.guna2Shapes3.Text = "guna2Shapes3";
             this.guna2Shapes3.Zoom = 80;
