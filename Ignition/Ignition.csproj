@@ -71,6 +71,12 @@
     <Compile Include="Admin_dash.Designer.cs">
       <DependentUpon>Admin_dash.cs</DependentUpon>
     </Compile>
+    <Compile Include="memberships.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="memberships.Designer.cs">
+      <DependentUpon>memberships.cs</DependentUpon>
+    </Compile>
     <Compile Include="New_Member.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin_dash.resx">
       <DependentUpon>Admin_dash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="memberships.resx">
+      <DependentUpon>memberships.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="New_Member.resx">
       <DependentUpon>New_Member.cs</DependentUpon>
@@ -122,6 +131,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Receipts\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
