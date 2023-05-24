@@ -12,6 +12,7 @@ namespace Ignition
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        ///created the paymebt interface
         [STAThread]
         static void Main()
         {
