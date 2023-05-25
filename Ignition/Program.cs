@@ -12,12 +12,17 @@ namespace Ignition
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        ///created the paymebt interface
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            
+
             Application.Run(new Admin_Dashboard());
+
         }
     }
 }
