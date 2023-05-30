@@ -44,6 +44,8 @@ namespace Ignition
             }
 
             guna2Button2.Hide();
+            uploadreceiptlabel.Hide();
+            textBox1.Hide();
         }
 
         private void guna2PictureBox1_Click(object sender, EventArgs e)
@@ -60,6 +62,16 @@ namespace Ignition
         }
 
         private void Payments_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void closeButton3_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
