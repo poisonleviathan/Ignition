@@ -53,7 +53,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(286, 96);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(239, 324);
+            this.pictureBox1.Size = new System.Drawing.Size(319, 341);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -91,7 +91,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.LimeGreen;
             this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
-            this.label2.Location = new System.Drawing.Point(405, 123);
+            this.label2.Location = new System.Drawing.Point(485, 114);
             this.label2.Margin = new System.Windows.Forms.Padding(0, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(120, 37);
@@ -150,7 +150,7 @@
             this.lbl_incorrect.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_incorrect.ForeColor = System.Drawing.Color.Red;
             this.lbl_incorrect.Image = ((System.Drawing.Image)(resources.GetObject("lbl_incorrect.Image")));
-            this.lbl_incorrect.Location = new System.Drawing.Point(305, 331);
+            this.lbl_incorrect.Location = new System.Drawing.Point(290, 340);
             this.lbl_incorrect.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_incorrect.Name = "lbl_incorrect";
             this.lbl_incorrect.Size = new System.Drawing.Size(300, 25);
@@ -168,11 +168,11 @@
             this.Usignin_btn.FillColor = System.Drawing.Color.LimeGreen;
             this.Usignin_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Usignin_btn.ForeColor = System.Drawing.Color.White;
-            this.Usignin_btn.Location = new System.Drawing.Point(355, 358);
+            this.Usignin_btn.Location = new System.Drawing.Point(323, 380);
             this.Usignin_btn.Margin = new System.Windows.Forms.Padding(2);
             this.Usignin_btn.Name = "Usignin_btn";
             this.Usignin_btn.ShadowDecoration.BorderRadius = 20;
-            this.Usignin_btn.Size = new System.Drawing.Size(108, 29);
+            this.Usignin_btn.Size = new System.Drawing.Size(108, 41);
             this.Usignin_btn.TabIndex = 10;
             this.Usignin_btn.Text = "Sign in";
             this.Usignin_btn.Click += new System.EventHandler(this.Usignin_btn_Click);
@@ -189,7 +189,7 @@
             this.Uname_txtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Uname_txtbox.ForeColor = System.Drawing.Color.Green;
             this.Uname_txtbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Uname_txtbox.Location = new System.Drawing.Point(309, 222);
+            this.Uname_txtbox.Location = new System.Drawing.Point(309, 233);
             this.Uname_txtbox.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Uname_txtbox.Name = "Uname_txtbox";
             this.Uname_txtbox.PasswordChar = '\0';
@@ -212,7 +212,7 @@
             this.UPass_txtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UPass_txtbox.ForeColor = System.Drawing.Color.Green;
             this.UPass_txtbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.UPass_txtbox.Location = new System.Drawing.Point(309, 286);
+            this.UPass_txtbox.Location = new System.Drawing.Point(309, 314);
             this.UPass_txtbox.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.UPass_txtbox.Name = "UPass_txtbox";
             this.UPass_txtbox.PasswordChar = '*';

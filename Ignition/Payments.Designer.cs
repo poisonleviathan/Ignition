@@ -68,7 +68,7 @@
             this.label1.Location = new System.Drawing.Point(964, 25);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(193, 56);
+            this.label1.Size = new System.Drawing.Size(288, 84);
             this.label1.TabIndex = 0;
             this.label1.Text = "Payments";
             // 
@@ -80,7 +80,7 @@
             this.label4.Location = new System.Drawing.Point(887, 122);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(335, 34);
+            this.label4.Size = new System.Drawing.Size(493, 50);
             this.label4.TabIndex = 3;
             this.label4.Text = "Please Enter Membership Details";
             // 
@@ -193,9 +193,9 @@
             this.guna2Button1.FillColor = System.Drawing.Color.LimeGreen;
             this.guna2Button1.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button1.Location = new System.Drawing.Point(907, 845);
+            this.guna2Button1.Location = new System.Drawing.Point(944, 863);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(345, 45);
+            this.guna2Button1.Size = new System.Drawing.Size(263, 45);
             this.guna2Button1.TabIndex = 8;
             this.guna2Button1.Text = "Done";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -209,7 +209,7 @@
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(583, 338);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(1031, 434);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(1031, 441);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 11;
             this.guna2PictureBox1.TabStop = false;
@@ -230,10 +230,10 @@
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
             this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
             this.guna2Button2.ImageSize = new System.Drawing.Size(150, 150);
-            this.guna2Button2.Location = new System.Drawing.Point(632, 449);
+            this.guna2Button2.Location = new System.Drawing.Point(931, 425);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.PressedColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.Size = new System.Drawing.Size(857, 250);
+            this.guna2Button2.Size = new System.Drawing.Size(283, 290);
             this.guna2Button2.TabIndex = 12;
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
@@ -242,9 +242,9 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.LimeGreen;
-            this.label5.Location = new System.Drawing.Point(939, 803);
+            this.label5.Location = new System.Drawing.Point(973, 806);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 19);
+            this.label5.Size = new System.Drawing.Size(0, 28);
             this.label5.TabIndex = 13;
             // 
             // textBox1
@@ -282,9 +282,9 @@
             this.uploadreceiptlabel.BackColor = System.Drawing.Color.Black;
             this.uploadreceiptlabel.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.uploadreceiptlabel.ForeColor = System.Drawing.Color.LimeGreen;
-            this.uploadreceiptlabel.Location = new System.Drawing.Point(987, 566);
+            this.uploadreceiptlabel.Location = new System.Drawing.Point(971, 561);
             this.uploadreceiptlabel.Name = "uploadreceiptlabel";
-            this.uploadreceiptlabel.Size = new System.Drawing.Size(137, 28);
+            this.uploadreceiptlabel.Size = new System.Drawing.Size(203, 42);
             this.uploadreceiptlabel.TabIndex = 16;
             this.uploadreceiptlabel.Text = "Upload Receipt";
             this.uploadreceiptlabel.Click += new System.EventHandler(this.uploadreceiptlabel_Click);
@@ -339,7 +339,7 @@
             this.label2.Location = new System.Drawing.Point(105, 845);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 15);
+            this.label2.Size = new System.Drawing.Size(109, 22);
             this.label2.TabIndex = 10;
             this.label2.Text = "User Name";
             // 
@@ -352,7 +352,7 @@
             this.label3.Location = new System.Drawing.Point(105, 902);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 15);
+            this.label3.Size = new System.Drawing.Size(46, 22);
             this.label3.TabIndex = 9;
             this.label3.Text = "Mail";
             // 
@@ -496,7 +496,7 @@
             // 
             // Payments
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1924, 940);

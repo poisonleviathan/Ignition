@@ -293,6 +293,12 @@
     <Compile Include="Payments.Designer.cs">
       <DependentUpon>Payments.cs</DependentUpon>
     </Compile>
+    <Compile Include="proceed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="proceed.Designer.cs">
+      <DependentUpon>proceed.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="add_staff.resx">
@@ -312,6 +318,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Payments.resx">
       <DependentUpon>Payments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="proceed.resx">
+      <DependentUpon>proceed.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
