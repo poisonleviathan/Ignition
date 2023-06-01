@@ -69,11 +69,13 @@ namespace Ignition
         }
 
         private void btn_reset_Click(object sender, EventArgs e)
-        {
+        { 
+            reset();
             lbl_Name.Visible = true;
             lbl_Email.Visible = true;
             lbl_Pass.Visible = true;
             lbl_Address.Visible = true;
+           
 
 
         }
@@ -139,7 +141,7 @@ namespace Ignition
                 {
                     MessageBox.Show(ex.Message, "Ignition", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-                finally
+                finally //code in the final block gets executed no matter what
                 {
                     Conn.Close();
                 }
@@ -232,6 +234,37 @@ namespace Ignition
             txtb_Pass.Text = "";
             txtb_Email.Text = "";
             txtb_Address.Text = "";
+        }
+
+        private void label3_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+               DialogResult r = MessageBox.Show("Are you sure you want to delete this record?", "Ignition", MessageBoxButtons.YesNo,MessageBoxIcon.Information);
+                if (r == DialogResult.Yes)
+                {
+                    Conn.Open();
+                    string sql = "DELETE FROM StaffTbl WHERE StaffID=@Sr";
+                    SqlCommand cmd = new SqlCommand(sql, Conn);
+                    cmd.Parameters.AddWithValue("@Sr", selectedRow);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Record Successfully Deleted", "Ignition", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Ignition", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                Conn.Close();
+            }
+            reset();
+            lbl_Name.Visible = true;
+            lbl_Email.Visible = true;
+            lbl_Pass.Visible = true;
+            lbl_Address.Visible = true;
+            DispStaff();
         }
     }
 }
