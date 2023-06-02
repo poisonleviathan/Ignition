@@ -204,6 +204,7 @@
             // 
             this.guna2PictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.BorderRadius = 12;
             this.guna2PictureBox1.FillColor = System.Drawing.Color.Black;
             this.guna2PictureBox1.ImageRotate = 0F;
