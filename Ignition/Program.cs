@@ -18,7 +18,7 @@ namespace Ignition
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new proceed());
+            Application.Run(new Admin_Dashboard());
         }
     }
 }
