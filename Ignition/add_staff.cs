@@ -266,5 +266,12 @@ namespace Ignition
             lbl_Address.Visible = true;
             DispStaff();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            New_Member nm = new New_Member();
+            nm.Show();
+            this.Hide();
+        }
     }
 }
