@@ -21,7 +21,7 @@ namespace Ignition
 
             
 
-            Application.Run(new Admin_Dashboard());
+            Application.Run(new New_Member());
 
         }
     }
