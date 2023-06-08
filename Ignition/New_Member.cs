@@ -246,5 +246,29 @@ namespace Ignition
             sf.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Unfortunately the Equipment page is under Construction", "Under Construction");
+        }
+
+        private void btn_home_Click(object sender, EventArgs e)
+        {
+           Admin_Dashboard admin_dash = new Admin_Dashboard();
+            admin_dash.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            memberships memberships = new memberships();
+            memberships.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     } 
 }

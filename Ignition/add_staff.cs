@@ -269,8 +269,8 @@ namespace Ignition
 
         private void button1_Click(object sender, EventArgs e)
         {
-            New_Member nm = new New_Member();
-            nm.Show();
+            New_Member new_member = new New_Member();
+            new_member.Show();
             this.Hide();
         }
     }
