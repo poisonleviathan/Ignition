@@ -60,5 +60,19 @@ namespace Ignition
             login.Show();
             this.Hide();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            add_staff addStaff = new add_staff();
+            addStaff.Show();
+            this.Hide();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            Payments payments = new Payments();
+            payments.Show();
+            this.Hide();
+        }
     }
 }

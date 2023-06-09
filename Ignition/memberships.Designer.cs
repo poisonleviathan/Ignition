@@ -47,7 +47,6 @@
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -68,7 +67,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(320, 757);
+            this.panel1.Size = new System.Drawing.Size(320, 944);
             this.panel1.TabIndex = 3;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -82,7 +81,7 @@
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(61, 493);
+            this.button5.Location = new System.Drawing.Point(61, 587);
             this.button5.Margin = new System.Windows.Forms.Padding(0);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(232, 32);
@@ -90,6 +89,7 @@
             this.button5.Text = "      Add Staff";
             this.button5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label2
             // 
@@ -97,7 +97,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.LightGray;
-            this.label2.Location = new System.Drawing.Point(93, 710);
+            this.label2.Location = new System.Drawing.Point(93, 897);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(76, 16);
@@ -110,7 +110,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.LightGray;
-            this.label3.Location = new System.Drawing.Point(93, 726);
+            this.label3.Location = new System.Drawing.Point(93, 913);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(32, 16);
@@ -122,11 +122,11 @@
             this.guna2CirclePictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(16, 697);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(16, 884);
             this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(107, 47);
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(55, 47);
             this.guna2CirclePictureBox1.TabIndex = 8;
             this.guna2CirclePictureBox1.TabStop = false;
             // 
@@ -134,7 +134,7 @@
             // 
             this.guna2Separator1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2Separator1.Location = new System.Drawing.Point(16, 677);
+            this.guna2Separator1.Location = new System.Drawing.Point(16, 864);
             this.guna2Separator1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Separator1.Name = "guna2Separator1";
             this.guna2Separator1.Size = new System.Drawing.Size(284, 12);
@@ -151,7 +151,7 @@
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(35, 635);
+            this.button4.Location = new System.Drawing.Point(35, 822);
             this.button4.Margin = new System.Windows.Forms.Padding(0);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(285, 30);
@@ -171,7 +171,7 @@
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(245)))), ((int)(((byte)(118)))));
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(61, 416);
+            this.button3.Location = new System.Drawing.Point(61, 510);
             this.button3.Margin = new System.Windows.Forms.Padding(0);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(232, 32);
@@ -191,7 +191,7 @@
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(61, 348);
+            this.button2.Location = new System.Drawing.Point(61, 442);
             this.button2.Margin = new System.Windows.Forms.Padding(0);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(232, 32);
@@ -211,7 +211,7 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(61, 284);
+            this.button1.Location = new System.Drawing.Point(61, 378);
             this.button1.Margin = new System.Windows.Forms.Padding(0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(232, 32);
@@ -231,7 +231,7 @@
             this.btn_home.ForeColor = System.Drawing.Color.White;
             this.btn_home.Image = ((System.Drawing.Image)(resources.GetObject("btn_home.Image")));
             this.btn_home.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_home.Location = new System.Drawing.Point(61, 219);
+            this.btn_home.Location = new System.Drawing.Point(61, 313);
             this.btn_home.Margin = new System.Windows.Forms.Padding(0);
             this.btn_home.Name = "btn_home";
             this.btn_home.Size = new System.Drawing.Size(232, 32);
@@ -257,14 +257,14 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Poppins", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-
-          this.label1.Location = new System.Drawing.Point(524, 31);
+            this.label1.Location = new System.Drawing.Point(920, 31);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(313, 70);
-
             this.label1.TabIndex = 4;
             this.label1.Text = "Memberships\r\n";
             // 
@@ -276,34 +276,33 @@
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button1.FillColor = System.Drawing.Color.LimeGreen;
-            this.guna2Button1.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold);
             this.guna2Button1.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button1.Location = new System.Drawing.Point(200, 492);
+            this.guna2Button1.Location = new System.Drawing.Point(932, 884);
             this.guna2Button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(243, 45);
             this.guna2Button1.TabIndex = 9;
             this.guna2Button1.Text = "Payment";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Panel1.BackColor = System.Drawing.Color.Black;
             this.guna2Panel1.BorderColor = System.Drawing.Color.White;
             this.guna2Panel1.BorderThickness = 16;
-            this.guna2Panel1.Controls.Add(this.guna2Button1);
-            this.guna2Panel1.Location = new System.Drawing.Point(336, 146);
+            this.guna2Panel1.Location = new System.Drawing.Point(336, 103);
             this.guna2Panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(614, 554);
+            this.guna2Panel1.Size = new System.Drawing.Size(1403, 784);
             this.guna2Panel1.TabIndex = 10;
             // 
             // memberships
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1029, 757);
+            this.ClientSize = new System.Drawing.Size(1818, 944);
+            this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
@@ -317,7 +316,6 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
